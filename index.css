@@ -1,0 +1,70 @@
+.container{
+    padding: 12px;
+    overflow: auto;
+    width: 60%;
+    margin: auto;
+}
+.container div{
+    margin: 12px;
+    width: 200px;
+    height: 100px;
+    font-weight:800;
+    text-align: center;
+    float: right;
+} 
+#div1{
+    background-color:coral;
+    float: right;
+}
+body:has(#div1:hover){
+    background-color:coral;
+}
+#div2{
+    color: white;
+    background-color:darkblue;
+    float: right;
+}
+body:has(#div2:hover){
+    background-color:darkblue;
+}
+#div3{
+     background-color: darkmagenta;
+     float: inline-end;
+}
+body:has(#div3:hover){
+    background-color: darkmagenta;
+}
+#div4{
+    background-color: springgreen;
+    float: inline-end;
+}
+body:has(#div4:hover){
+    background-color: springgreen;
+}
+body:has(.div5:hover){
+    background-color:cadetblue;
+}
+body:has(.div6:hover){
+    background-color:blueviolet ;
+}
+body:has(.div7:hover){
+    background-color:crimson ;
+}
+body:has(.div8:hover){
+   background-color: yellow;
+}
+body:has(.div9:hover){
+    background-color:cyan;
+}
+body:has(.div10:hover){
+    background-color:darkgoldenrod 
+}
+body:has(.div11:hover){
+    background-color:palevioletred 
+}
+body:has(.div12:hover){
+    background-color:red;
+}
+
+
+
